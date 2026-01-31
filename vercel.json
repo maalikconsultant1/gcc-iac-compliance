@@ -1,5 +1,13 @@
 {
   "routes": [
-    { "src": "/iac-scan", "dest": "/iac-scan/index.html" }
+    {
+      "src": "/iac-scan/?$",
+      "dest": "/iac-scan/index.html"
+    },
+    {
+      "src": "/(.*)",
+      "status": 404,
+      "dest": "/404.html"
+    }
   ]
 }
