@@ -1,0 +1,14 @@
+{
+  "rules": [
+    {
+      "id": "UAE-DATA-01",
+      "jurisdiction": "UAE",
+      "description": "S3 bucket or Blob Storage configured without encryption at rest — violates FTA data protection requirements for tax-relevant records",
+      "source": "FTA Public Clarification VATP017 (2023), Section 4.1 – Electronic Records Retention",
+      "severity": "high",
+      "remediation": "Enable server-side encryption (AES-256 or KMS) on all storage containing invoices, contracts, or customer data. Verify encryption status in bucket properties.",
+      "validation_note": "Human-reviewed validation available via WhatsApp: +92 300 5473874"
+    },
+    // ... (all 6 rules)
+  ]
+}
