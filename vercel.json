@@ -1,0 +1,5 @@
+{
+  "routes": [
+    { "src": "/iac-scan", "dest": "/iac-scan/index.html" }
+  ]
+}
