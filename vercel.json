@@ -1,13 +1,7 @@
 {
   "routes": [
-    {
-      "src": "/iac-scan/?$",
-      "dest": "/iac-scan/index.html"
-    },
-    {
-      "src": "/(.*)",
-      "status": 404,
-      "dest": "/404.html"
-    }
+    { "src": "/iac-scan/?$", "dest": "/iac-scan/index.html" },
+    { "src": "/uae-fix/?$", "dest": "/uae-fix/index.html" },
+    { "src": "/zatca-fix/?$", "dest": "/zatca-fix/index.html" }
   ]
 }
